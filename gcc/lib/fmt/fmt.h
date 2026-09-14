@@ -43,7 +43,7 @@ void fmt_int(void print(char), int val) {
 
 void fmt_unsigned_hex(void print(char), unsigned val) {
     int i = 28;
-    while (i > 0 && (val>>i)&0xF == 0) {
+    while (i > 0 && ((val>>i) & 0xF) == 0) {
         i -= 4;
     }
 

@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+set -e
+#cd $(dirname "$0")
+
+mkdir -p tmp
+
+#  -fPIE -static-pie \
+
+docker run -ti --rm \
+  -u $(id -u):$(id -g) \
+  -v $(pwd)/..:/work \
+  -w /work/$(basename "$PWD") \
+  silkeh/clang \
+  bash -c "
+
+clang -fuse-ld=lld \
+  --target=riscv32-unknown-elf -march=rv32imac_zicsr -mabi=ilp32 -nostdlib \
+  -fno-builtin-memset -fno-builtin-memcpy -fno-common \
+  -fno-ident \
+  -Oz -g \
+  -T ../bin/linker.ld \
+  -ffunction-sections -fdata-sections \
+  -Wl,--gc-sections \
+  -flto -fomit-frame-pointer \
+  -o tmp/output.elf *.c &&
+
+llvm-objdump \
+  --disassemble --line-numbers --source \
+  --full-contents --section=.text --section=.rodata --section=.data \
+  tmp/output.elf > tmp/output.elf.S &&
+
+llvm-objcopy \
+  --output-target=binary \
+  --only-section=.text* --only-section=.rodata* --only-section=.rodata* --only-section=.data* \
+  tmp/output.elf tmp/output.bin
+"

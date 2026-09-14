@@ -56,8 +56,8 @@ void _start() {
 
     ((volatile int*)GPIO_FUNC_OUT_SEL_CFG_REG)[8] = 0x80;
     *(volatile int*)GPIO_ENABLE_W1TS_REG = 1<<8;
-    for (int i = 0; i < 3; i++) {
-        rainbow(8, 1'600'000);
+    for (int i = 0; i < 1; i++) {
+        rainbow(8, 800000);
     }
 
 //    ((volatile int*)GPIO_FUNC_OUT_SEL_CFG_REG)[15] = 0x80;
