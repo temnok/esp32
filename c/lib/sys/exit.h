@@ -1,5 +1,5 @@
 #pragma once
 
 void sys_exit() {
-    __builtin_trap();
+    __asm__ __volatile__ ("ebreak");
 }
