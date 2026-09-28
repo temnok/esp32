@@ -7,3 +7,6 @@ e26516e58dfdfb4346f24de02779486a4a787e214db9a35ae2542550a67dc91c  tmp/jtag/JTAG 
 17a47fb2204cc6284588ff897f82ef29395575c0d914e719bcbc230bfb8ea14d  tmp/led/WS2812B-2020 Datasheet.pdf
 ce2787b25233a6109c9bc767b2bc497798148b721390f72fb9b48ff0ed986fc8  tmp/rv/RISC-V Debug Specification.pdf
 401f90fa557cf5f501e761eb0ec17cce98eac798f65cc85acf811113dafe7aea  tmp/rv/RISC-V Reference Card.pdf
+735d1b18b2907ed78a23f880c6f95997fa28098d96591f1c12dc6a912b8bc773  tmp/s31/ESP32-S31 Datasheet.pdf
+9aea08268f624f56876b36758676b9a1bd7f7cc79d92cdf2503403c9965d4151  tmp/s31/ESP32-S31 esp-dev-kits Documentation.pdf
+d6a63c70c46a45e9b44239f591e383efd1a82ce3a0bfd8154d709dc25d87f6ef  tmp/s31/ESP32-S31 Technical Reference Manual.pdf

@@ -1,7 +1,16 @@
 #!/usr/bin/env sh
 cd $(dirname "$0")
 
-mkdir -p tmp/c6 tmp/jtag tmp/led tmp/rv
+mkdir -p tmp/s31 tmp/c6 tmp/jtag tmp/led tmp/rv
+
+wget -nc -O "tmp/s31/ESP32-S31 esp-dev-kits Documentation.pdf" \
+  https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-dev-kits-en-master-esp32s31.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31 Datasheet.pdf" \
+  https://documentation.espressif.com/esp32-s31_datasheet_en.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31 Technical Reference Manual.pdf" \
+  https://documentation.espressif.com/esp32-s31_technical_reference_manual_en.pdf
 
 wget -nc -O "tmp/c6/ESP32-C6-Touch-LCD-1.47 Schematic.pdf" \
   https://files.waveshare.com/wiki/ESP32-C6-Touch-LCD-1.47/ESP32-C6-Touch-LCD-1.47-Schematic.pdf
