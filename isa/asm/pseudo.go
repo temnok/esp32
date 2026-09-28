@@ -1,6 +1,6 @@
 package asm
 
-import "github.com/temnok/esp32c6/isa"
+import "github.com/temnok/esp32/isa"
 
 type Pseudo struct {
 	isa.RV32IMACNZicsrZifencei

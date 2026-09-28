@@ -1,7 +1,7 @@
 package dmi
 
 import (
-	"github.com/temnok/esp32c6/tap"
+	"github.com/temnok/esp32/tap"
 )
 
 func Session(block func(*Conn)) {

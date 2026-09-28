@@ -2,7 +2,7 @@ package debug
 
 import (
 	"fmt"
-	"github.com/temnok/esp32c6/dmi"
+	"github.com/temnok/esp32/dmi"
 )
 
 type Conn struct {

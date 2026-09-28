@@ -3,8 +3,8 @@ package dot
 import (
 	"fmt"
 	"github.com/deadsy/rvda"
-	"github.com/temnok/esp32c6/isa"
-	"github.com/temnok/esp32c6/isa/asm"
+	"github.com/temnok/esp32/isa"
+	"github.com/temnok/esp32/isa/asm"
 	"reflect"
 	"testing"
 )

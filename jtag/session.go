@@ -2,7 +2,7 @@ package jtag
 
 import (
 	"github.com/google/gousb"
-	"github.com/temnok/esp32c6/check"
+	"github.com/temnok/esp32/check"
 )
 
 func Session(block func(*Conn)) {

@@ -3,7 +3,7 @@ package asm
 import (
 	"github.com/deadsy/rvda"
 	"github.com/stretchr/testify/assert"
-	"github.com/temnok/esp32c6/isa"
+	"github.com/temnok/esp32/isa"
 	"testing"
 )
 

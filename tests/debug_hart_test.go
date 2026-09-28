@@ -2,8 +2,8 @@ package tests
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/temnok/esp32c6/check"
-	"github.com/temnok/esp32c6/debug"
+	"github.com/temnok/esp32/check"
+	"github.com/temnok/esp32/debug"
 	"testing"
 )
 

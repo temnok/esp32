@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/temnok/esp32c6/check"
-	"github.com/temnok/esp32c6/debug"
-	"github.com/temnok/esp32c6/isa"
-	"github.com/temnok/esp32c6/isa/csr"
+	"github.com/temnok/esp32/check"
+	"github.com/temnok/esp32/debug"
+	"github.com/temnok/esp32/isa"
+	"github.com/temnok/esp32/isa/csr"
 	"log"
 	"os"
 	"time"

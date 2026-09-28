@@ -3,7 +3,7 @@ package jtag
 import (
 	"fmt"
 	"github.com/google/gousb"
-	"github.com/temnok/esp32c6/check"
+	"github.com/temnok/esp32/check"
 )
 
 type Conn struct {

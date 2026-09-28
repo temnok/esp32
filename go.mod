@@ -1,4 +1,4 @@
-module github.com/temnok/esp32c6
+module github.com/temnok/esp32
 
 go 1.27
 

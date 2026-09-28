@@ -1,7 +1,7 @@
 package debug
 
 import (
-	"github.com/temnok/esp32c6/dmi"
+	"github.com/temnok/esp32/dmi"
 )
 
 func Session(block func(*Conn)) {

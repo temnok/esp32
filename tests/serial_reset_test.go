@@ -1,7 +1,7 @@
 package tests
 
 import (
-	"github.com/temnok/esp32c6/check"
+	"github.com/temnok/esp32/check"
 	"go.bug.st/serial"
 	"testing"
 	"time"

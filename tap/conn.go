@@ -1,7 +1,7 @@
 package tap
 
 import (
-	"github.com/temnok/esp32c6/jtag"
+	"github.com/temnok/esp32/jtag"
 )
 
 type Conn struct {

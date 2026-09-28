@@ -2,7 +2,7 @@ package asm
 
 import (
 	"fmt"
-	"github.com/temnok/esp32c6/isa"
+	"github.com/temnok/esp32/isa"
 )
 
 func Asm(instr func(int)) isa.RV32IMACNZicsrZifencei {

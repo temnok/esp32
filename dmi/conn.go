@@ -2,7 +2,7 @@ package dmi
 
 import (
 	"fmt"
-	"github.com/temnok/esp32c6/tap"
+	"github.com/temnok/esp32/tap"
 )
 
 type Conn struct {
