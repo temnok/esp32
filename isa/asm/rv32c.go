@@ -13,9 +13,9 @@ func (asm *asm) C_ADDI4SPN(rd, imm int) { asm.CIW(0x0000, rd, imm) }
 func (asm *asm) C_ANDI(rd, imm int)     { asm.CB(0x8801, rd, imm) }
 func (asm *asm) C_LI(rd, imm int)       { asm.CI(0x4001, rd, imm) }
 func (asm *asm) C_LUI(rd, imm int)      { asm.CI(0x6001, rd, imm) }
-func (asm *asm) C_SLLI(rd, imm int)     { asm.CIsl(0x0002, rd, imm) }
-func (asm *asm) C_SRAI(rd, imm int)     { asm.CBsr(0x8401, rd, imm) }
-func (asm *asm) C_SRLI(rd, imm int)     { asm.CBsr(0x8001, rd, imm) }
+func (asm *asm) C_SLLI(rd, imm int)     { asm.CI_S(0x0002, rd, imm) }
+func (asm *asm) C_SRAI(rd, imm int)     { asm.CB_S(0x8401, rd, imm) }
+func (asm *asm) C_SRLI(rd, imm int)     { asm.CB_S(0x8001, rd, imm) }
 
 func (asm *asm) C_BEQZ(rd, imm int) { asm.CB2(0xC001, rd, imm) }
 func (asm *asm) C_BNEZ(rd, imm int) { asm.CB2(0xE001, rd, imm) }

@@ -16,11 +16,11 @@ func (asm *asm) ANDI(rd, rs1, imm int)  { asm.I(0x00007013, rd, rs1, imm) }
 func (asm *asm) AUIPC(rd, imm int)      { asm.U(0x00000017, rd, imm) }
 func (asm *asm) LUI(rd, imm int)        { asm.U(0x00000037, rd, imm) }
 func (asm *asm) ORI(rd, rs1, imm int)   { asm.I(0x00006013, rd, rs1, imm) }
-func (asm *asm) SLLI(rd, rs1, imm int)  { asm.Ish(0x00001013, rd, rs1, imm) }
+func (asm *asm) SLLI(rd, rs1, imm int)  { asm.I_S(0x00001013, rd, rs1, imm) }
 func (asm *asm) SLTI(rd, rs1, imm int)  { asm.I(0x00002013, rd, rs1, imm) }
 func (asm *asm) SLTIU(rd, rs1, imm int) { asm.I(0x00003013, rd, rs1, imm) }
-func (asm *asm) SRAI(rd, rs1, imm int)  { asm.Ish(0x40005013, rd, rs1, imm) }
-func (asm *asm) SRLI(rd, rs1, imm int)  { asm.Ish(0x00005013, rd, rs1, imm) }
+func (asm *asm) SRAI(rd, rs1, imm int)  { asm.I_S(0x40005013, rd, rs1, imm) }
+func (asm *asm) SRLI(rd, rs1, imm int)  { asm.I_S(0x00005013, rd, rs1, imm) }
 func (asm *asm) XORI(rd, rs1, imm int)  { asm.I(0x00004013, rd, rs1, imm) }
 
 func (asm *asm) BEQ(rs1, rs2, imm int)  { asm.B(0x00000063, rs1, rs2, imm) }
