@@ -9,4 +9,7 @@ ce2787b25233a6109c9bc767b2bc497798148b721390f72fb9b48ff0ed986fc8  tmp/rv/RISC-V 
 401f90fa557cf5f501e761eb0ec17cce98eac798f65cc85acf811113dafe7aea  tmp/rv/RISC-V Reference Card.pdf
 735d1b18b2907ed78a23f880c6f95997fa28098d96591f1c12dc6a912b8bc773  tmp/s31/ESP32-S31 Datasheet.pdf
 9aea08268f624f56876b36758676b9a1bd7f7cc79d92cdf2503403c9965d4151  tmp/s31/ESP32-S31 esp-dev-kits Documentation.pdf
+ba167c515a720511f6c90cc40527248125e1d1b3bc4edfde9ba26f50076934fe  tmp/s31/ESP32-S31 Hardware Design Guidelines.pdf
+6841cdb55bc4749376a4309365a0efeb45b2cb4cc882a48008bf592d029ae0ec  tmp/s31/ESP32-S31-Korvo-1 Schematics.pdf
 d6a63c70c46a45e9b44239f591e383efd1a82ce3a0bfd8154d709dc25d87f6ef  tmp/s31/ESP32-S31 Technical Reference Manual.pdf
+1d236fef0154ded5c0b3bf777bc657561df0c327f842eb529ab4e1335f9d3b21  tmp/s31/ESP32-S31-WROOM-3 Datasheet.pdf

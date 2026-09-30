@@ -3,15 +3,6 @@ cd $(dirname "$0")
 
 mkdir -p tmp/s31 tmp/c6 tmp/jtag tmp/led tmp/rv
 
-wget -nc -O "tmp/s31/ESP32-S31 esp-dev-kits Documentation.pdf" \
-  https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-dev-kits-en-master-esp32s31.pdf
-
-wget -nc -O "tmp/s31/ESP32-S31 Datasheet.pdf" \
-  https://documentation.espressif.com/esp32-s31_datasheet_en.pdf
-
-wget -nc -O "tmp/s31/ESP32-S31 Technical Reference Manual.pdf" \
-  https://documentation.espressif.com/esp32-s31_technical_reference_manual_en.pdf
-
 wget -nc -O "tmp/c6/ESP32-C6-Touch-LCD-1.47 Schematic.pdf" \
   https://files.waveshare.com/wiki/ESP32-C6-Touch-LCD-1.47/ESP32-C6-Touch-LCD-1.47-Schematic.pdf
 
@@ -26,6 +17,24 @@ wget -nc -O "tmp/c6/ESP32-C6 Super Mini Board Pinout.jpg" \
 
 wget -nc -O "tmp/c6/ESP32-C6 Super Mini Board Schematic.png" \
   https://esp32lab.com/wp-content/uploads/esp32-c6mini-sch.png
+
+wget -nc -O "tmp/s31/ESP32-S31 Datasheet.pdf" \
+  https://documentation.espressif.com/esp32-s31_datasheet_en.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31 esp-dev-kits Documentation.pdf" \
+  https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-dev-kits-en-master-esp32s31.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31 Hardware Design Guidelines.pdf" \
+  https://documentation.espressif.com/esp-hardware-design-guidelines/en/latest/esp32s31/esp-hardware-design-guidelines-en-master-esp32s31.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31-Korvo-1 Schematics.pdf" \
+  https://dl.espressif.com/schematics/esp32-s31-korvo-1-schematics.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31 Technical Reference Manual.pdf" \
+  https://documentation.espressif.com/esp32-s31_technical_reference_manual_en.pdf
+
+wget -nc -O "tmp/s31/ESP32-S31-WROOM-3 Datasheet.pdf" \
+  https://documentation.espressif.com/esp32-s31-wroom-3_wroom-3u_datasheet_en.pdf
 
 wget -nc -O "tmp/led/WS2812B-2020 Datasheet.pdf" \
   https://files.waveshare.com/wiki/common/WS2812_0807.pdf
